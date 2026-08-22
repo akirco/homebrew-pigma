@@ -1,22 +1,22 @@
 class Pigma < Formula
   desc "A netease cloud music client"
   homepage "https://github.com/akirco/pigma"
-  version "0.2.12"
+  version "0.2.13"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/akirco/pigma/releases/download/v0.2.12/pigma-aarch64-apple-darwin.tar.gz"
-      sha256 "f2e6dfd8be4fb5b0a2a4bc4a140fcd9051da9d10c3bf38b1cbf88232aa6b262a"
+      url "https://github.com/akirco/pigma/releases/download/v0.2.13/pigma-aarch64-apple-darwin.tar.gz"
+      sha256 "10896ae8619e9300c46adc5ae6f84fef29a6c9b41af0700d3427bfb9c18b1857"
     else
-      url "https://github.com/akirco/pigma/releases/download/v0.2.12/pigma-x86_64-apple-darwin.tar.gz"
-      sha256 "1cad8fa7cb5791ee74c6cb1dd52c0a3d13c0332a20c5b60107ebab2ce95a7ce3"
+      url "https://github.com/akirco/pigma/releases/download/v0.2.13/pigma-x86_64-apple-darwin.tar.gz"
+      sha256 "0e2cbce6a584b58ccf0545c34bc76d4bd89f0720e9eacd964d56cb31887b9e53"
     end
   end
 
   on_linux do
-    url "https://github.com/akirco/pigma/releases/download/v0.2.12/pigma-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "2a1a30627a7c92bb539edc28aa0827b510a6b102b0b66fcb94b2b0e6912c61b2"
+    url "https://github.com/akirco/pigma/releases/download/v0.2.13/pigma-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "0ce166cc2cae2504a522ef9114fd9b39cea2d59b30840868058b6b9aef53146c"
   end
 
   def install
